@@ -1,0 +1,49 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block title %}Contact - Portfolio{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'portfolio/css/profile.css' %}">
+
+<div id="background-overlay"></div>
+
+<div class="profile-section animate-fade-in">
+    <div class="profile-image">
+        <img src="{% static 'portfolio/images/contact.jpg' %}" alt="Contact">
+    </div>
+
+    <div class="profile-info animate-slide-in">
+        <h1>Contact Me</h1>
+        <h2>Let’s Connect!</h2>
+        <p>
+            Feel free to reach out for collaborations, opportunities, or just to say hello!
+        </p>
+
+        <div class="profile-details">
+            <h3>📍 Address:</h3>
+            <p>Vijayawada, Andhra Pradesh, India</p>
+
+            <h3>📧 Email:</h3>
+            <p>maheshch2708@gmail.com</p>
+            <ul class="skills-list">
+            <li><a href="mailto:maheshch2708@gmail.com">Send Email</a></li>
+            </ul>
+
+            <h3>📞 Quick Call Access:</h3>
+            <ul class="skills-list">
+            <li><a href="tel:+919133610680">📱 Call Now</a></li>
+            </ul>
+
+
+
+            <h3>🔗 Social Links:</h3>
+            <ul class="skills-list">
+                <li><a href="https://www.linkedin.com/in/maheshbabuch/" target="_blank">LinkedIn</a></li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

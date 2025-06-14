@@ -1,0 +1,30 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block title %}Projects - Portfolio{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'portfolio/css/profile.css' %}">
+<div id="background-overlay"></div>
+
+<div class="profile-section animate-fade-in">
+    <!-- 🖼️ Project Image -->
+    <div class="profile-image">
+        <img src="{% static 'portfolio/images/projects.jpg' %}" alt="Projects">
+    </div>
+
+    <div class="profile-info animate-slide-in">
+        <h1>Projects</h1>
+        <h2>Highlighted Works & Solutions</h2>
+        <p>Here are some of the key projects that reflect my skills and experience in full stack development.</p>
+
+        <div class="profile-details">
+            <h3>📌 Project 1: Grading System</h3>
+            <p>Built a fully functional Grading website using Python, Django, and MySQL. The system allows teachers to enter marks and auto-calculate grades with visual feedback.</p>
+
+            <h3>📌 Project 2: Portfolio Website</h3>
+            <p>This very site was created using Django and styled using responsive CSS animations. It includes resume viewing/downloading, contact options, and smooth scrolling.</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

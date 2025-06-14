@@ -1,0 +1,86 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block title %}Home - Portfolio{% endblock %}
+{% block content %}
+
+
+<!-- Reuse CSS -->
+<link rel="stylesheet" href="{% static 'portfolio/css/profile.css' %}">
+
+<!-- Background Image Overlay -->
+<div id="background-overlay"></div>
+
+<!-- Home Content Section -->
+<div class="profile-section animate-fade-in">
+  <div class="profile-info animate-slide-in">
+    <h1>Welcome to My Digital Portfolio</h1>
+
+    <div class="step">
+      <h3>1. Introduction</h3>
+      <p>Hello! I'm <strong>Mahesh Babu Chennamsetti</strong>, a passionate <strong>Full Stack Developer</strong> and <strong>AI Enthusiast</strong> with a deep interest in solving real-world problems through technology.</p>
+    </div>
+
+    <div class="step">
+      <h3>2. Foundatpytion</h3>
+      <p>With a good background in both <strong>backend</strong> and <strong>frontend development</strong>, I enjoy building seamless digital experiences that perform efficiently and look great.</p>
+    </div>
+
+    <div class="step">
+      <h3>3. Technical Stack</h3>
+      <p>I have good expertise in:</p>
+      <ul class="skills-list">
+        <li><strong>Backend:</strong> Python (Django)</li>
+        <li><strong>Frontend:</strong> JavaScript, React</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h3>4. AI & Research</h3>
+      <p>I’m actively involved in <strong>Artificial Intelligence</strong> research and projects, especially in:</p>
+      <ul class="skills-list">
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Ai Ethics and Rsponsibilities</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h3>5. Vision</h3>
+      <p>To become a leading contributor in Full Stack Development by building smart, ethical, and accessible systems that make life better.</p>
+    </div>
+
+    <div class="step">
+      <h3>6. Project Highlights</h3>
+      <ul class="skills-list">
+        <li>Student Grading System</li>
+        <li>Portfolio Website</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h3>7. Explore This Portfolio</h3>
+      <ul class="skills-list">
+        <li><strong>Profile:</strong> My background, experience, and passion</li>
+        <li><strong>Projects:</strong> Web apps and intelligent tools</li>
+        <li><strong>Achievements:</strong> Certifications and milestones</li>
+        <li><strong>Contact:</strong> Collaborate or connect</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h3>8. Technology Toolkit</h3>
+      <ul class="skills-list">
+        <li>Python, Django</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+        <li>Machine Learning</li>
+        <li>Cloud Deployment</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

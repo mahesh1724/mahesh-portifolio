@@ -1,0 +1,36 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block title %}Achievements - Portfolio{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'portfolio/css/profile.css' %}">
+
+<div id="background-overlay"></div>
+
+<div class="profile-section animate-fade-in">
+    <div class="profile-image">
+        <img src="{% static 'portfolio/images/achievements.jpg' %}" alt="Achievements">
+    </div>
+
+    <div class="profile-info animate-slide-in">
+        <h1>Achievements</h1>
+        <h2>Highlights & Recognitions</h2>
+        <p>
+            A showcase of awards, certifications, and key milestones demonstrating my dedication to software development and innovation.
+        </p>
+
+        <div class="profile-details">
+            <h3>🏆 Certifications:</h3>
+            <ul class="skills-list">
+                <li><a href="https://www.credly.com/badges/753ad74d-8a0f-446d-bc7e-c8848e13c10a/public_url" target="_blank">Red Hat Certified Enterprise Application Developer</a></li>
+                <li><a href="https://certificates.automationanywhere.com/5791a8d1-4455-423b-9724-53dce7af2d1c#acc.KMIzw43P" target="_blank">Essentials Automation Certification - 2024</a></li>
+                <li><a href="https://certificates.automationanywhere.com/dafafae2-e68a-416a-aaff-b15c45a58283#acc.IeP754O3" target="_blank">Automation Anywhere Certified Essentials RPA Professional</a></li>
+
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
